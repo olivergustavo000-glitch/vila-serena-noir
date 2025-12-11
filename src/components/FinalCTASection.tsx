@@ -32,8 +32,10 @@ const FinalCTASection = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Button variant="hero" size="xl" className="text-lg">
-            🔍 Iniciar Investigação Agora
+          <Button variant="hero" size="xl" className="text-lg" asChild>
+            <a href="https://pay.cakto.com.br/bbp6d7x_684969" target="_blank" rel="noopener noreferrer">
+              🔍 Iniciar Investigação Agora
+            </a>
           </Button>
         </div>
 
