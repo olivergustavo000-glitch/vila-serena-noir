@@ -72,8 +72,10 @@ const PricingSection = () => {
             </ul>
 
             {/* CTA */}
-            <Button variant="hero" size="xl" className="w-full text-lg">
-              🔍 Comprar e Começar Agora
+            <Button variant="hero" size="xl" className="w-full text-lg" asChild>
+              <a href="https://pay.cakto.com.br/bbp6d7x_684969" target="_blank" rel="noopener noreferrer">
+                🔍 Comprar e Começar Agora
+              </a>
             </Button>
 
             {/* Trust badges */}

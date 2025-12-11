@@ -27,8 +27,10 @@ const EarlyCTASection = () => {
               <span className="text-muted-foreground line-through text-lg">R$ 29,90</span>
               <span className="text-3xl font-bold text-primary font-display">R$ 14,90</span>
             </div>
-            <Button variant="hero" size="xl" className="min-w-[280px]">
-              Comprar e Começar Agora
+            <Button variant="hero" size="xl" className="min-w-[280px]" asChild>
+              <a href="https://pay.cakto.com.br/bbp6d7x_684969" target="_blank" rel="noopener noreferrer">
+                Comprar e Começar Agora
+              </a>
             </Button>
           </div>
         </div>
